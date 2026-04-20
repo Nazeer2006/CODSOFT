@@ -1,0 +1,186 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+    background: #222;
+    padding: 20px 0;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo span {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: normal;
+    color: #888;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+/* Hero Section (Dark) */
+.hero {
+    background: #333;
+    color: #fff;
+    padding: 150px 0 100px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    color: #bbb;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: right;
+}
+
+.hero-image img {
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 0px rgba(255,255,255,0.05);
+}
+
+/* About Section (White) */
+.about-section {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.about-flex {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-left-img {
+    flex: 1;
+}
+
+.about-left-img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.about-right-text {
+    flex: 1.5;
+}
+
+.about-right-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.blue-line {
+    width: 40px;
+    height: 3px;
+    background: #3b82f6;
+    margin-bottom: 20px;
+}
+
+.intro-bold {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.btn-blue {
+    background: #3b82f6;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+/* Footer */
+footer {
+    padding: 40px 0;
+    background: #f4f4f4;
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+    .hero-flex, .about-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-text p { margin: 0 auto 30px; }
+    .hero-image, .about-left-img { margin-top: 40px; }
+}
