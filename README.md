@@ -1,4 +1,4 @@
-# CodSoft Internship Projects
+#  CodSoft Internship Projects
 
 ##  About Me
 
@@ -19,7 +19,7 @@ Role: Aspiring Web Developer
 
 ---
 
-### 2. Grade Calculator
+###  2. Grade Calculator
 
 * Enter marks of subjects
 * Calculates total and average
@@ -28,6 +28,8 @@ Role: Aspiring Web Developer
 ---
 
 ###  3. Calculator
+
+ **Live Demo:** https://nazeer2006.github.io/CODSOFT/level-1project/codsoft_task_1
 
 * Basic operations (+, -, *, /)
 * Clean user interface
@@ -45,6 +47,8 @@ Role: Aspiring Web Developer
 
 ###  5. Portfolio Website
 
+ **Live Demo:** https://nazeer2006.github.io/CODSOFT/level-1project/codsoft_task_3
+
 * Personal portfolio website
 * Shows skills and projects
 * Includes resume and contact details
@@ -53,6 +57,8 @@ Role: Aspiring Web Developer
 ---
 
 ###  6. Landing Page
+
+ **Live Demo:** https://nazeer2006.github.io/CODSOFT/level-1project/codsoft_task_2
 
 * Attractive landing page design
 * Modern UI with sections and layout
@@ -79,3 +85,6 @@ Phone: 9121372934
 ##  GitHub Repository
 
 https://github.com/Nazeer2006/CODSOFT
+
+
+
