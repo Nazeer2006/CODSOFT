@@ -10,24 +10,7 @@ Role: Aspiring Web Developer
 
 ##  Projects
 
-###  1. Number Guessing Game
-
-* Guess a random number
-* Provides hints (Too High / Too Low)
-* Limited attempts
-* Score tracking
-
----
-
-###  2. Grade Calculator
-
-* Enter marks of subjects
-* Calculates total and average
-* Displays grade
-
----
-
-###  3. Calculator
+###  1. Calculator
 
  **Live Demo:** https://nazeer2006.github.io/CODSOFT/level-1project/codsoft_task_1
 
@@ -37,15 +20,7 @@ Role: Aspiring Web Developer
 
 ---
 
-###  4. Currency Converter
-
-* Converts currencies
-* Uses real-time exchange rates
-* Supports multiple currencies
-
----
-
-###  5. Portfolio Website
+###  2. Portfolio Website
 
  **Live Demo:** https://nazeer2006.github.io/CODSOFT/level-1project/codsoft_task_3
 
@@ -56,7 +31,7 @@ Role: Aspiring Web Developer
 
 ---
 
-###  6. Landing Page
+###  3. Landing Page
 
  **Live Demo:** https://nazeer2006.github.io/CODSOFT/level-1project/codsoft_task_2
 
